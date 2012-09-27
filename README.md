@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-##Monaliza wesite : molaliza.com
+
+
 =======
 ##Monaliza wesite : monaliza.com
->>>>>>> origin/master
+
 
 
 
@@ -34,4 +32,4 @@
 
 
 Produced by 1schools students network (autumn 2012)
->>>>>>> origin/master
+

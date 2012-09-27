@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ##Monaliza wesite : molaliza.com
+=======
+##Monaliza wesite : monaliza.com
+>>>>>>> origin/master
 
 
 
@@ -26,7 +30,7 @@
 * [**Zainab mirshahi**](https://github.com/mirshahi) Designer / Developer
 
 
-###Our Desire Design Is : http://www.http://ballantyne.it
+###Our Desire Design Is : ballantyne.it
 
 
 Produced by 1schools students network (autumn 2012)

@@ -1,0 +1,29 @@
+body{
+	background-image: url('image/body-bg.gif');
+}
+div.container{
+	
+	color: white;
+	margin: 0 auto;
+	width: 686px;
+
+	
+}
+.gallery{
+	width: 800px;
+	list-style-type: none;
+	margin-left: 5px;
+}
+
+.gallery li {
+	margin-top: 10px;
+	float: left;
+	margin-right: 15px;
+}
+
+.gallery a {
+	display: block;
+	border: 5px solid #aeada8;
+	border-bottom-width: 10px;
+	border-radius: 10px;
+}

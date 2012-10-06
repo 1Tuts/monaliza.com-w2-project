@@ -22,15 +22,7 @@ section{
 	height:880px;
 	float: left;
 }
-.man{
-	background-image:url('../img/man.png');
-	background-repeat: no-repeat;
-	outline:1px solid red;
-	width: 317px;
-	height: 880px;
-	float: right;
 
-}
 .logo{
 	background-image:url('../img/logo.png');
 	background-repeat: no-repeat;
@@ -40,38 +32,34 @@ section{
 	height: 50px;
 
 }
-.man2{
-	background-image:url('../img/man2.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	outline:1px solid #0aa;
-	width: 318px;
-	height: 525px;
-}
-.middle{
-	margin-left: 317px;
-	width: 316px;
+
+.textleft{
+	margin-left: 600px;
+	width: 635px;
 	padding-top: 20px;
 	margin-left: 317px;
 }
 nav{
-	height: 235px;
+	background-image: url('../img/bg1.png');
+	height: 25px;
+	width: 635px;
 	padding-top: 2px;
 	padding-bottom: 50px;
 }
 li{
+	
+	float: left;
 	margin-bottom:30px;
 	margin-right: auto;
 	margin-left: auto;
 	
 }
 a{
-	border: 2px solid #a0a;
-	text-decoration:none;
-	padding: 15px 10px;
+	text-decoration: none;
+	padding: 25px 44px;
 	display: block;
 	text-align: center;
-	color: #b96;
-	margin-bottom: 59px;
-
+	color: #0B0C0F;
+	margin-bottom: 5px;
+	font-size: 1.25em;
 }

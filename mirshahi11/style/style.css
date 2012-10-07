@@ -17,17 +17,15 @@ section{
 .woman{
 	background-image:url('../img/woman.png');
 	background-repeat: no-repeat;
-	outline:1px solid red;
-	width: 315px;
-	height:880px;
+	width: 316px;
+	height:720px;
 	float: left;
 }
 .man{
 	background-image:url('../img/man.png');
 	background-repeat: no-repeat;
-	outline:1px solid red;
-	width: 317px;
-	height: 880px;
+	width: 318px;
+	height: 720px;
 	float: right;
 
 }
@@ -35,24 +33,59 @@ section{
 	background-image:url('../img/logo.png');
 	background-repeat: no-repeat;
 	margin: auto;
-	outline:1px solid #0aa;
 	width: 265px;
-	height: 50px;
+	height: 65px;
 
 }
-.man2{
-	background-image:url('../img/man2.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	outline:1px solid #0aa;
+
+ section.slideshow {
 	width: 318px;
-	height: 525px;
+	height:362px;
+	overflow: hidden;
 }
+section.slideshow ul.train{
+	
+	-webkit-animation-name:mymove;
+	-webkit-animation-duration:50s;
+}
+
+section.slideshow ul.train > li{
+	width: 317px;
+	height: 492px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+@-webkit-keyframes mymove
+{
+from {left:10px;}
+to {left:-950px;}
+}
+
+ 
+
+section.slideshow menu{
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+}
+section.slideshow menu li{
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 200s;
+}
+
 .middle{
-	margin-left: 317px;
 	width: 316px;
-	padding-top: 20px;
-	margin-left: 317px;
+	padding-top: 5px;
+	margin-left: 316px;
 }
 nav{
 	height: 235px;
@@ -66,7 +99,7 @@ li{
 	
 }
 a{
-	border: 2px solid #a0a;
+	
 	text-decoration: none;
 	padding: 4px 10px;
 	display: block;

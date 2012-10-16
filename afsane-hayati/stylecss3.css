@@ -2,27 +2,27 @@ body{
 	background-image: url('image/body-bg.gif');
 }
 div.container{
-	margin:0 auto;
-	width: 950px;
+	margin: 0 auto;
+	width : 950px;
 }
 section.box1,
 section.box2{
-	border:2px solid #aeada8;
+	border: 2px solid #aeada8;
 	border-radius: 5px;
-	height:711px;
-	width: 473px; 
+	height: 711px;
+	width : 473px; 
 }
 section.slideshow {
-	width: 473px;
+	width : 473px;
 	height: 711px;
 }
 section.slideshow ul.train > li{
-	width: 473px;
+	width : 473px;
 	height: 711px;
-	position:absolute;
+	position: absolute;
 	z-index: 1;
-	left:0;
-	top:0;
+	left: 0;
+	top : 0;
 	border-radius: 5px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -33,13 +33,12 @@ section.slideshow menu{
 	left: 182px;
 	bottom: 40px;
 	z-index: 3;
-
 }
 
 section.slideshow menu li{
-	float:left;
-	width:16px;
-	height:14px;
+	float: left;
+	width: 16px;
+	height: 14px;
 	border-radius: 8px;
 	background-color: #674b27;
 	opacity: 0.7;
@@ -48,39 +47,35 @@ section.slideshow menu li{
 	-webkit-transition: all 500ms;
 	bottom: 18px;
 }
-
 section.slideshow menu li:hover{
 	background-color: #ccb9a1;
 	opacity: 1;
 }
-
-
-
 section.slideshow .train > li {
-	opacity:0;
+	opacity: 0;
 	-webkit-transition: all 800ms ease-out;
 }
 
 
 .step1 section.slideshow .train > li.pic1 {
-	opacity:1;
+	opacity: 1;
 }
 
 .step2 section.slideshow .train > li.pic2 {
-	opacity:1;
+	opacity: 1;
 }
 
 .step3 section.slideshow .train > li.pic3 {
-	opacity:1;
+	opacity: 1;
 }
 
 .step4 section.slideshow .train > li.pic4 {
-	opacity:1;
+	opacity: 1;
 }
 
 .step5 section.slideshow .train > li.pic5 {
-	opacity:1;
+	opacity: 1;
 }
 .step6 section.slideshow .train > li.pic6 {
-	opacity:1;
+	opacity: 1;
 }

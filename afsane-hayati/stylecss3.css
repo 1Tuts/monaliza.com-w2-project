@@ -20,7 +20,7 @@ section.slideshow ul.train > li{
 	width : 473px;
 	height: 711px;
 	position: absolute;
-	z-index: 1;
+	z-index : 1;
 	left: 0;
 	top : 0;
 	border-radius: 5px;
@@ -36,8 +36,8 @@ section.slideshow menu{
 }
 
 section.slideshow menu li{
-	float: left;
-	width: 16px;
+	float : left;
+	width : 16px;
 	height: 14px;
 	border-radius: 8px;
 	background-color: #674b27;

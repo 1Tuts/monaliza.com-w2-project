@@ -40,10 +40,10 @@ div.logo2{
 }
 div.logo3{
 	background-image: url('image/rombi.gif');
-	min-height: 28px;
-	margin-top: 40px;
-	width: 33px;
+	min-height : 28px;
+	margin-top : 40px;
 	margin-left: 130px;
+	width: 33px;
 }
 section.bottom{
 	background-image: url('image/36.jpg');
@@ -54,24 +54,21 @@ section.bottom{
 div.menu{
 	list-style-type: none;
 }
-div.menu li{
 
-
-}
 div.menu a{
-display: block;
-color: #AA8D5B;
+	display: block;
+	color  : #AA8D5B;
 
 }
 div.menu a.bridal{
 	margin-left: 130px;
-	margin-top: 30px;
+	margin-top : 30px;
 }
 div.menu a.dress{
 	margin-left: 100px;
-	margin-top: 30px;
+	margin-top : 30px;
 }
 div.menu a.sports{
 	margin-left: 100px;
-	margin-top: 30px;
+	margin-top : 30px;
 }

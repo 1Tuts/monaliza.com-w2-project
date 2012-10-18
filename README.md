@@ -1,5 +1,4 @@
 
-
 =======
 ##Monaliza wesite : monaliza.com
 
@@ -24,8 +23,9 @@
 
 ###The Team
 * [**Ali Mihandoost**](http://github.com/Alimd) Teacher  & Technical Manager
-* [**Afsane hayati**](http://github.com/afsane hayati) Project Manager / Designer / Developer
-* [**Zainab mirshahi**](https://github.com/mirshahi) Designer / Developer
+* [**Zainab mirshahi**](https://github.com/mirshahi)Project Manager / Designer / Developer
+* [**Afsane hayati**](http://github.com/afsane hayati)  Designer / Developer
+
 
 
 ###Our Desire Design Is : ballantyne.it

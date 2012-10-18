@@ -1,0 +1,108 @@
+body{
+	background-image: url('image/body-bg.gif');
+}
+#loading *{
+	opacity: 0;
+	-webkit-transition: all 10s;
+}
+
+body.preload #loading *{
+	opacity: 1;
+}
+
+#loading div.backimg{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-image: url('image/body-bg.gif');
+	z-index: 3;
+}
+#loading div.txt{
+	position: fixed;
+	z-index: 4;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width:180px;
+	height:65px;
+	margin: auto;
+	font-size:30px;
+	color: white;
+}
+div.container{
+	margin: 0 auto;
+
+}
+div.left{
+	min-height: 724px;
+	background-image: url('image/1.jpg');
+	width: 315px;
+	background-position: 548px -25px;
+}
+div.right{
+	min-height: 724px;
+	background-image: url('image/5.jpg');
+	width: 320px;
+	background-position: 497px -57px;
+}
+div.middle{
+	min-height: 722px;
+	margin-left: 315px;
+	margin-right: 320px;
+	background-color: white;
+}
+
+div.logo{
+	background-image: url('image/logo (1).PNG');
+	min-height: 50px;
+	margin-top: 50px;
+	width: 265px;
+	margin-left: 20px;
+}
+div.logo2{
+	background-image: url('image/rombi.gif');
+	min-height: 28px;
+	margin-top: 30px;
+	width: 33px;
+	margin-left: 130px;
+}
+div.logo3{
+	background-image: url('image/rombi.gif');
+	min-height: 28px;
+	margin-top: 40px;
+	width: 33px;
+	margin-left: 130px;
+}
+section.bottom{
+	background-image: url('image/36.jpg');
+	min-height: 355px;
+	margin-top: 5px;
+	
+}
+div.menu{
+	list-style-type: none;
+}
+div.menu li{
+
+
+}
+div.menu a{
+display: block;
+color: #AA8D5B;
+
+}
+div.menu a.bridal{
+	margin-left: 130px;
+	margin-top: 30px;
+}
+div.menu a.dress{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+div.menu a.sports{
+	margin-left: 100px;
+	margin-top: 30px;
+}
